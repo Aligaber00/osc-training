@@ -5,11 +5,11 @@ mkdir BAD
 cd BAD
 touch bad.txt
 cd ..
-mv one.txt Downloads
+mv one.txt /home/osc/Downloads
 cd Downloads
-cp one.txt Downloads
+cp one.txt /home/osc/Downloads
 mv one.txt copy.txt
-cd ali
+cd /home/osc/ali
 nano two.txt
 ali
 echo 1-hello Osc 2-hello Osc 3-hello Osc 4-hello Osc 5-hello Osc 6-hello Osc
