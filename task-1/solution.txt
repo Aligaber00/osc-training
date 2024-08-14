@@ -1,12 +1,8 @@
 mkdir ali
-cd ali
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
-cd BAD
 touch bad.txt
-cd ..
 mv one.txt /home/osc/Downloads
-cd Downloads
 cp one.txt /home/osc/Downloads
 mv one.txt copy.txt
 cd /home/osc/ali
