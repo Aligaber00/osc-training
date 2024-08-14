@@ -1,1 +1,19 @@
-
+mkdir ali
+cd ali
+touch one.txt two.txt three.txt four.txt
+mkdir BAD
+cd BAD
+touch bad.txt
+cd ..
+mv one.txt Downloads
+cd Downloads
+cp one.txt Downloads
+mv one.txt copy.txt
+cd ali
+nano two.txt
+ali
+echo 1-hello Osc 2-hello Osc 3-hello Osc 4-hello Osc 5-hello Osc 6-hello Osc
+7-hello Osc 8-hello Osc >>three.txt
+mv three.txt hello.txt
+rm four.text
+rm -r BAD
